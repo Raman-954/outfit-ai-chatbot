@@ -220,7 +220,7 @@ export default function ChatInterface() {
                     {message.text.startsWith('__WEATHER_BLOCK__') && message.weather ? (
                       <div className="flex items-center bg-indigo-50 border border-indigo-200 rounded-lg p-4 mb-2 shadow-sm">
                         <div className="weather-video-glow mr-4">
-                          <video src="/weathericon.mp4" autoPlay loop muted playsInline className="weather-video" />
+                          <video src="/weathericon.gif" autoPlay loop muted playsInline className="weather-video" />
                         </div>
                         <div>
                           <div className="weather-title">Weather Details in {message.weather?.city}, {message.weather?.country}</div>
