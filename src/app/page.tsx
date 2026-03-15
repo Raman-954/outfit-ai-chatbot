@@ -24,10 +24,6 @@ export default function Home() {
           <div className="text-center text-indigo-700 text-base font-semibold tracking-wide">
             Created with <span className="text-pink-500">♥</span> by
             <span className="font-bold mx-2">Raman Kumar</span>
-            <span className="text-indigo-400">|</span>
-            <span className="font-bold mx-2">Ritu Raj</span>
-            <span className="text-indigo-400">|</span>
-            <span className="font-bold mx-2">Tejas V. Krishna</span>
           </div>
           <div className="text-indigo-500 text-xs mt-2">&copy; {new Date().getFullYear()} OutFIT AI. All rights reserved.</div>
         </div>
